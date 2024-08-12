@@ -10,3 +10,19 @@
     /* Customize animation effect if needed */
     transition: all 2s ease-out;
 }
+.close-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.close-btn svg {
+    width: 24px;
+    height: 24px;
+    stroke: #000; /* Adjust color as needed */
+    stroke-width: 2;
+}
